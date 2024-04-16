@@ -1,0 +1,16 @@
+.Navbar-section{
+    height: 2rem;
+    width: 100%;
+    border: 2px solid red;
+}
+.navbar{
+    display: grid;
+    grid-template-columns: repeat(4, auto);
+    font-size: 1.5rem;
+    font-weight: 500;
+    font-family: monospace;
+}
+.navbar>li{
+    list-style: none;
+    text-decoration: none;
+}
